@@ -9,8 +9,10 @@ app = Flask(__name__)
 
 print(__name__)
 
+if __name__ == '__main__':
+    app.run()
 
-@app.route('/templates') 
+@app.route('/')
 # check this it was '/' before 
 def my_home():
     return render_template('/index.html')
