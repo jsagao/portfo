@@ -818,10 +818,15 @@ pre code {
 .container-fluid:after {
   clear: both;
 }
-.row {
+.row-works {
   margin-left: -15px;
   margin-right: -15px;
   max-height: 20rem;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin: auto;
 }
 .row:after,
 .row:before {
